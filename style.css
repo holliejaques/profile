@@ -114,19 +114,37 @@ a:hover {
 }
 
 @media (max-width: 960px) {
-  .container {
+  .card {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
-  .container {
+  .card {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
-  .container {
+  .card {
     width: 100%;
   }
 }
+
+/* @media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 100%;
+  }
+} */
