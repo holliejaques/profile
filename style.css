@@ -55,7 +55,7 @@ body {
   padding: 10px;
   border-radius: 50px;
   display: block;
-  width: 100%;
+  width: 300px;
 }
 
 #yellow-btn:hover {
@@ -78,7 +78,7 @@ a:hover {
 }
 
 .container {
-  width: 500px auto;
+  width: 300px;
   margin: 0 auto;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -86,7 +86,7 @@ a:hover {
 
 .card {
   display: block;
-  width: 50% auto;
+  width: 300px;
   margin: 25px auto;
   background-color: aliceblue;
   border-radius: 10px;
