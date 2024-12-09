@@ -83,7 +83,6 @@ a:hover {
 }
 
 .card {
-  display: block;
   width: 300px;
   margin: 25px auto;
   background-color: aliceblue;
@@ -125,6 +124,12 @@ a:hover {
 
 @media (max-width: 540px) {
   .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
     width: 300px;
   }
 }
