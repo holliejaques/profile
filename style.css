@@ -54,7 +54,6 @@ body {
   text-decoration: none;
   padding: 10px;
   border-radius: 50px;
-  display: block;
   width: 300px;
 }
 
@@ -95,9 +94,8 @@ a:hover {
 }
 
 .img-circle {
-  display: block;
   border-radius: 50%;
-  width: 400px;
+  width: 300px;
   height: auto;
   margin: auto;
   padding-bottom: 10px;
