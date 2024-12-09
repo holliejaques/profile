@@ -9,6 +9,7 @@ h1 {
 h2 {
   font-family: monospace;
   font-size: 25px;
+  padding-bottom: 10px;
 }
 
 body {
@@ -19,6 +20,47 @@ body {
   line-height: normal;
   text-decoration: none;
   text-align: center;
+  background-image: url(images/PXL_20230813_125010374.jpg);
+  background-size: cover;
+  background-position: center;
+    -webkit-animation: slidein 30s;
+    animation: slidein 30s;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+@-webkit-keyframes slidein {
+from {background-position: bottom; background-size:100px;}
+to {background-position: 10px 0px;background-size:500px;}
+}
+
+@keyframes slidein {
+from {background-position: bottom;background-size:2000px;}
+to {background-position: 10px 0px;background-size:2750px;}
+}
+
+#yellow-btn {
+  font-family: monospace;
+  color: black;
+  background-color: #a8dfe1;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  display: block;
+  width: 530px;
+}
+
+#yellow-btn:hover {
+  background-color: blue;
+  color:white;
+  transition: 0.3s ease;
 }
 
 a {
@@ -57,6 +99,7 @@ a:hover {
   width: 400px;
   height: auto;
   margin: auto;
+  padding-bottom: 10px;
 }
 
 .list-inline > li {
@@ -85,10 +128,4 @@ a:hover {
   .container {
     width: 300px;
   }
-}
-
-#banner {
-  background-image: url(images/PXL_20230813_125010374.jpg);
-  background-size: cover;
-  background-position: center;
 }
