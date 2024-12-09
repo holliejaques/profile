@@ -55,7 +55,7 @@ body {
   padding: 10px;
   border-radius: 50px;
   display: block;
-  width: 100%;
+  width: auto;
 }
 
 #yellow-btn:hover {
@@ -78,7 +78,7 @@ a:hover {
 }
 
 .container {
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -86,7 +86,7 @@ a:hover {
 
 .card {
   display: block;
-  width: 100%;
+  width: auto;
   margin: 25px auto;
   background-color: aliceblue;
   border-radius: 10px;
@@ -114,37 +114,19 @@ a:hover {
 }
 
 @media (max-width: 960px) {
-  .card {
+  .container {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
-  .card {
+  .container {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
-  .card {
+  .container {
     width: 100%;
   }
 }
-
-/* @media (max-width: 960px) {
-  .card {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  .card {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .card {
-    width: 100%;
-  }
-} */
