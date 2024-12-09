@@ -48,13 +48,16 @@ body {
 }
 
 #yellow-btn {
+  display: block;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   font-family: monospace;
   color: black;
   background-color: #a8dfe1;
   text-decoration: none;
   padding: 10px;
-  border-radius: 50px;
-  width: 300px;
 }
 
 #yellow-btn:hover {
@@ -94,10 +97,11 @@ a:hover {
 }
 
 .img-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
-  width: 300px;
-  height: auto;
-  margin: auto;
+  width: 50%;
   padding-bottom: 10px;
 }
 
