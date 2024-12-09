@@ -22,7 +22,7 @@ body {
   text-align: center;
   background-image: url(images/PXL_20230813_125010374.jpg);
   background-size: cover;
-  background-position: center;
+    background-position: center;
     -webkit-animation: slidein 30s;
     animation: slidein 30s;
 
