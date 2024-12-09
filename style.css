@@ -48,10 +48,7 @@ body {
 }
 
 #yellow-btn {
-  display: block;
   border-radius: 50px;
-  width: 300px;
-  margin: 0 auto;
   font-family: monospace;
   color: black;
   background-color: #a8dfe1;
