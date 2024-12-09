@@ -50,9 +50,7 @@ body {
 #yellow-btn {
   display: block;
   border-radius: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin: 0 auto;
   font-family: monospace;
   color: black;
   background-color: #a8dfe1;
@@ -98,10 +96,10 @@ a:hover {
 
 .img-circle {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 50%;
-  width: 50%;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
   padding-bottom: 10px;
 }
 
