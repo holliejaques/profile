@@ -1,3 +1,10 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 4px;
@@ -15,45 +22,44 @@ h2 {
 body {
   background-color: aliceblue;
   font-family: 'Poppins';
-  font-weight: 100px;
   font-size: 15px;
   line-height: normal;
   text-decoration: none;
   text-align: center;
   background-image: url(images/PXL_20230813_125010374.jpg);
   background-size: cover;
-  background-position: center;
+    -webkit-animation: slidein 30s;
+    animation: slidein 30s;
 
-  -webkit-animation: slidein 30s;
-  animation: slidein 30s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
-}
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
 
 @-webkit-keyframes slidein {
-   from {background-position: bottom; background-size:100px;}
-  to {background-position: 10px 0px;background-size:500px;}
+from {background-position: bottom; background-size:100px;}
+to {background-position: top;background-size:500px;}
 }
 
 @keyframes slidein {
-  from {background-position: bottom;background-size:2000px;}
-  to {background-position: 10px 0px;background-size:2750px;}
+from {background-position: top;background-size:3000px;}
+to {background-position: top;background-size:1000px;}
 }
 
 #yellow-btn {
-  border-radius: 50px;
   font-family: monospace;
   color: black;
   background-color: #a8dfe1;
   text-decoration: none;
   padding: 10px;
+  border-radius: 50px;
+  display: block;
+  width: 530px;
 }
 
 #yellow-btn:hover {
@@ -75,15 +81,9 @@ a:hover {
   transition: 0.3s ease;
 }
 
-.container {
-  width: 500px;
-  margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .card {
-  width: 300px;
+  display: block;
+  width: 500px;
   margin: 25px auto;
   background-color: aliceblue;
   border-radius: 10px;
@@ -94,9 +94,9 @@ a:hover {
 .img-circle {
   display: block;
   border-radius: 50%;
-  width: 300px;
+  width: 400px;
   height: auto;
-  margin: 0 auto;
+  margin: auto;
   padding-bottom: 10px;
 }
 
@@ -124,12 +124,6 @@ a:hover {
 
 @media (max-width: 540px) {
   .container {
-    width: 300px;
-  }
-}
-
-@media (max-width: 540px) {
-  .card {
     width: 300px;
   }
 }
